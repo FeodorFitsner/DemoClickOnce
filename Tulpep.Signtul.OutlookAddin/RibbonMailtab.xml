@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabMail">
+        <group id="Signtul" label="Signtul">
+          <button id="updateSignatures"
+                  label="Update Signatures"
+                  screentip="Update Signatures"
+                  onAction="OnUpdateButton"
+                  supertip="Update your Outlook's singatures from Signtul."
+                  getImage="GetLogo"
+                  getEnabled="OnUpdateButtonEnabled"
+                  size="large"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+

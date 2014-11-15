@@ -1,0 +1,1 @@
+msbuild Tulpep.Signtul.OutlookAddin\Tulpep.Signtul.OutlookAddin.csproj /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll" /t:Publish 
