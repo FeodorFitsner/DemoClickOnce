@@ -1,11 +1,4 @@
-environment:
-  pfx_password:
-    secure: yfky3xGsKE0Kwe2xOHB2sQ==
-
-##Set registry key with PFX password and run script to install cert
 before_build:
-  - ps: New-Item -path HKCU:\SOFTWARE\Tulpep
-  - ps: New-ItemProperty -path HKCU:\SOFTWARE\Tulpep -Name PfxPassword -Value $env:pfx_password
   - ps: .\BeforeBuildScript.ps1
 
 after_build:
