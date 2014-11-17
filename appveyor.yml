@@ -1,5 +1,3 @@
-os: test
-
 before_build:
   - ps: .\BeforeBuildScript.ps1
 
