@@ -5,3 +5,4 @@ before_build:
 
 after_build:
   - ps: .\AfterBuildScript.ps1
+  - dir C:\projects\democlickonce /b /s
