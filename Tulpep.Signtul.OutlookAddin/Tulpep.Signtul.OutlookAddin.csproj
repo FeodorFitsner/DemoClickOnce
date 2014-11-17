@@ -227,6 +227,7 @@
       <DependentUpon>SigntulAddIn.Designer.xml</DependentUpon>
     </Compile>
     <AppDesigner Include="Properties\" />
+    <None Include="Tulpep-Certificate.pfx" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="RibbonMailtab.xml">
@@ -241,11 +242,10 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>
-    </ManifestKeyFile>
+    <ManifestKeyFile>Tulpep-Certificate.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>B6C83DFA006475AEC9E458A48696C1C42FF1B5C4</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>9AD9CD3C2A72FDE676207EA67D80866505465A67</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestTimestampUrl>http://timestamp.verisign.com/scripts/timstamp.dll</ManifestTimestampUrl>
