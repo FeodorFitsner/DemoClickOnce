@@ -1,3 +1,5 @@
+os: Visual Studio 2015 Preview
+
 before_build:
   - ps: .\BeforeBuildScript.ps1
 
