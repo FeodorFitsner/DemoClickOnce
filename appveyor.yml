@@ -1,4 +1,4 @@
-os: SharePoint 2013
+#os: SharePoint 2013
 
 before_build:
   - ps: .\BeforeBuildScript.ps1
